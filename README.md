@@ -18,15 +18,15 @@ Run the following command:
 * To Activate: `<your-venv-name>\Scripts\activate`
 * To Deactivate: `deactivate`
 
+## Installing the Dependencies
+After setting venv, run the following command to install all the project dependencies:
+`pip install -r requirements.txt`
+
 ## Add the Virtual Environment as a Kernel in Jupyter
 Run the following command:
 `python -m ipykernel install --user --name=<your_venv_name> --display-name "<your_venv_name>"`
 * To list kernels: `jupyter kernelspec list`
 * To delete a kernel: `jupyter kernelspec remove <env-name>`
-
-## Installing the Dependencies
-After setting venv, run the following command to install all the project dependencies:
-`pip install -r requirements.txt`
 
 ## Open the Project
 Run `jupyter notebook` inside your directory to run the project.
